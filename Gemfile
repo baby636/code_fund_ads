@@ -31,7 +31,7 @@ gem "full-name-splitter", "~> 0.1.2"
 gem "heroku-deflater", "~> 0.6.3", group: :production
 gem "hiredis", "~> 0.6.3"
 gem "htmlentities", "4.3.4"
-gem "image_processing", "~> 1.10.3"
+gem "image_processing", "~> 1.12.2"
 gem "inky-rb", "~> 1.3.7.3", require: "inky"
 gem "ipaddress", "~> 0.8.3"
 gem "jbuilder", "~> 2.5"
