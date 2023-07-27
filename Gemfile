@@ -56,7 +56,7 @@ gem "premailer", "1.11.1"
 gem "pretender", "~> 0.3.3"
 gem "progressbar", "~> 1.10.1", require: false
 gem "puma", "~> 4.3"
-gem "rack-attack", "~> 6.3.0"
+gem "rack-attack", "~> 6.7.0"
 gem "rails", "~> 6.0"
 gem "redis", "~> 4.0", require: ["redis", "redis/connection/hiredis"]
 gem "render_later", "~> 0.1.1"
