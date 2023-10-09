@@ -57,7 +57,7 @@ gem "pretender", "~> 0.3.3"
 gem "progressbar", "~> 1.10.1", require: false
 gem "puma", "~> 4.3"
 gem "rack-attack", "~> 6.3.0"
-gem "rails", "~> 6.0"
+gem "rails", "~> 7.1", ">= 7.1.0"
 gem "redis", "~> 4.0", require: ["redis", "redis/connection/hiredis"]
 gem "render_later", "~> 0.1.1"
 gem "rollbar", "~> 2.21"
@@ -78,7 +78,7 @@ gem "view_component", "~> 2.5.1"
 # TODO - Re-enable for internal CodeFund analytics tool
 # gem "staccato", "~> 0.5.1"
 
-gem "stimulus_reflex", "~> 3.1.2"
+gem "stimulus_reflex", "~> 3.2.0"
 gem "stopwords-filter", "~> 0.4.1", require: "stopwords"
 gem "stripe", "~> 5.4.1"
 gem "tag_columns", "~> 0.1.8"
