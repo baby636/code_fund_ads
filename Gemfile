@@ -106,7 +106,7 @@ group :development do
   gem "letter_opener_web"
   gem "listen", "~> 3.2"
   gem "mechanize"
-  gem "meta_request" # RailsPanel Chrome extension
+  gem "meta_request" , ">= 0.7.3" # RailsPanel Chrome extension
   gem "model_probe"
   gem "ngrok-tunnel"
   gem "rack-mini-profiler", require: false
