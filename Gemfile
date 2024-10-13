@@ -111,7 +111,7 @@ group :development do
   gem "ngrok-tunnel"
   gem "rack-mini-profiler", require: false
   gem "solargraph", "~> 0.39"
-  gem "standard"
+  gem "standard", ">= 1.41.0"
   gem "teamocil"
   gem "tty-box"
   gem "web-console", ">= 3.3.0"
