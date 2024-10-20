@@ -11,12 +11,12 @@ gem "acts_as_commentable_with_threading", "~> 2.0.1"
 gem "aws-sdk-s3", "~> 1.61.1", require: false
 gem "barnes", "~> 0.0.7"
 gem "bootsnap", ">= 1.4.2", require: false
-gem "cable_ready", "~> 4.1.0"
+gem "cable_ready", "~> 5.0.0"
 gem "camo", "~> 0.1.0"
 gem "chroma", "~> 0.2.0"
 gem "chronic", "~> 0.10.2"
 gem "closure_tree", "~> 7.1"
-gem "cloudflare-rails", "~> 0.6.0", group: :production
+gem "cloudflare-rails", "~> 2.0.0", group: :production
 gem "consolidated_screening_list", "~> 0.0.2"
 gem "countries", "~> 3.0.0"
 gem "country_select", "~> 4.0.0"
@@ -57,7 +57,7 @@ gem "pretender", "~> 0.3.3"
 gem "progressbar", "~> 1.10.1", require: false
 gem "puma", "~> 4.3"
 gem "rack-attack", "~> 6.3.0"
-gem "rails", "~> 6.0"
+gem "rails", "~> 7.0", ">= 7.0.0"
 gem "redis", "~> 4.0", require: ["redis", "redis/connection/hiredis"]
 gem "render_later", "~> 0.1.1"
 gem "rollbar", "~> 2.21"
@@ -78,7 +78,7 @@ gem "view_component", "~> 2.5.1"
 # TODO - Re-enable for internal CodeFund analytics tool
 # gem "staccato", "~> 0.5.1"
 
-gem "stimulus_reflex", "~> 3.1.2"
+gem "stimulus_reflex", "~> 3.5.0"
 gem "stopwords-filter", "~> 0.4.1", require: "stopwords"
 gem "stripe", "~> 5.4.1"
 gem "tag_columns", "~> 0.1.8"
