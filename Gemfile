@@ -102,7 +102,7 @@ end
 group :development do
   gem "annotate"
   gem "bullet"
-  gem "erb_lint"
+  gem "erb_lint", ">= 0.0.36"
   gem "letter_opener_web"
   gem "listen", "~> 3.2"
   gem "mechanize"
@@ -110,8 +110,8 @@ group :development do
   gem "model_probe"
   gem "ngrok-tunnel"
   gem "rack-mini-profiler", require: false
-  gem "solargraph", "~> 0.39"
-  gem "standard"
+  gem "solargraph", "~> 0.40", ">= 0.40.0"
+  gem "standard", ">= 1.34.0"
   gem "teamocil"
   gem "tty-box"
   gem "web-console", ">= 3.3.0"
